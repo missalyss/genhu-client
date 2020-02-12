@@ -53,7 +53,7 @@ class ShowOrphanageMob extends React.Component {
   render() {
     const { orphanage } = this.state;
     return(
-      <>
+      <React.Fragment>
       <div className='centers-top-cont-mob'>
       {/* <h1>SHOW ME</h1> */}
       <div className='orphanage-img-mob'>
@@ -100,7 +100,7 @@ class ShowOrphanageMob extends React.Component {
         <Fade left delay={1250}>
           <div className='centers-single-stat-mob'>
             <div className='centers-single-stat-col-mob'>
-              <div className='homes-stat-font-mob'>{ this.renderCountUpVolunteersO() }</div> 
+              <div className='homes-stat-font-mob'>{ this.renderCountUpVolunteersO() }</div>
               <p className='homes-stat-title-mob'>Regular Volunteers</p>
             </div>
           </div>
@@ -122,7 +122,7 @@ class ShowOrphanageMob extends React.Component {
         </div>
         </div>
       </div>
-      </>
+      </React.Fragment>
       )
     }
 }

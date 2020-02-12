@@ -8,7 +8,7 @@ import AboutMob from '../landing-mobile/about-mob/AboutMob';
 import ThreeStagesMob from '../landing-mobile/three-stages-mob/ThreeStagesMob';
 
 const LandingMob = () => (
-  <>
+  <React.Fragment>
     {/* <NavMob /> */}
     <CarouselMob />
     <ProvenSoulsMob />
@@ -16,7 +16,7 @@ const LandingMob = () => (
     <AboutMob />
     {/* <AboutCarouselMob /> */}
     <ThreeStagesMob />
-  </>
+  </React.Fragment>
 )
 
 export default LandingMob;

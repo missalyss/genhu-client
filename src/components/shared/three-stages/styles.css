@@ -15,7 +15,7 @@
   position: absolute;
   padding: 0 2em;
   color: white;
-  background: url('../../assets/Images/city-buildings.jpg');
+  background: url('../../../assets/Images/city-buildings.jpg');
   background-position: center;
   background-size: cover;
   border: solid 5px red;
@@ -41,7 +41,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  background: url('../../assets/Images/city-buildings.jpg');
+  background: url('../../../assets/Images/city-buildings.jpg');
   background-size: cover;
   filter: grayscale(100%);
 }
@@ -110,7 +110,7 @@
 }
 
 .ts-background-image {
-  background-image: url('../../assets/carousel-pic3.jpg');
+  background-image: url('../../../assets/carousel-pic3.jpg');
   background-position: center;
   background-size: cover;
   margin-bottom: 1em;
@@ -129,7 +129,7 @@
 }
 
 .ts-background-image2 {
-  background-image: url('../../assets/carousel-pic1.jpg');
+  background-image: url('../../../assets/carousel-pic1.jpg');
   background-position: center;
   background-size: cover;
   margin-bottom: 1em;
@@ -147,7 +147,7 @@
 }
 
 .ts-background-image3 {
-  background-image: url('../../assets/carousel-pic4.jpg');
+  background-image: url('../../../assets/carousel-pic4.jpg');
   background-position: center;
   background-size: cover;
   margin-bottom: 1em;

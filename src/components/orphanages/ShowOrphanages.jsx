@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import Footer from '../shared/Footer';
+import Footer from '../shared/footer';
 import CountUp from 'react-countup';
 import './ShowOrphanages.css';
 import {Fade} from 'react-reveal';
@@ -54,7 +54,7 @@ class ShowOrphanages extends React.Component {
   render() {
     const { orphanage } = this.state;
     return(
-      <>
+      <React.Fragment>
       <div className='centers-top-cont'>
       {/* <h1>SHOW ME</h1> */}
       <div className='orphanage-img'>
@@ -97,7 +97,7 @@ class ShowOrphanages extends React.Component {
         </div>
         <div className='centers-single-stat'>
           <div className='centers-single-stat-col'>
-            <div className='homes-stat-font'>{ this.renderCountUpVolunteersO() }</div> 
+            <div className='homes-stat-font'>{ this.renderCountUpVolunteersO() }</div>
             <p className='homes-stat-title'>Regular Volunteers</p>
           </div>
         </div>
@@ -120,7 +120,7 @@ class ShowOrphanages extends React.Component {
           </div>
         </div>
       </Fade>
-      </>
+      </React.Fragment>
       )
     }
 }

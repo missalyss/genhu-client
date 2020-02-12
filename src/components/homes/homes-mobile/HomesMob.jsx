@@ -20,12 +20,12 @@ class HomesMob extends Component {
     })
 
   }
-  
+
   renderO = () => {
     const { orphanages } = this.state;
-    
+
     return (
-      <>
+      <React.Fragment>
         {orphanages.map(o => (
           <div
             key={o.id}
@@ -34,32 +34,32 @@ class HomesMob extends Component {
                   {/* <Fade left cascade> */}
                 <button className='btn-home-mob'>
 
-              <Link 
-                to={{ pathname: `/orphanages/${o.id}` }} 
+              <Link
+                to={{ pathname: `/orphanages/${o.id}` }}
                 style={{textDecoration: 'none', color: 'white'}}
                 {...o}
                 >
-                  {o.name} 
+                  {o.name}
                   </Link>
               </button>
               {/* </Fade> */}
           </div>
             ))}
-      </>
+      </React.Fragment>
     );
   }
   renderC = () => {
     const { centers } = this.state;
 
     return (
-      <>
+      <React.Fragment>
         {centers.map(c => (
           <div
             key={c.id}
             {...c}
             >
             <button className='btn-home-mob'>
-              <Link to={{ pathname: `/centers/${c.id}` }} 
+              <Link to={{ pathname: `/centers/${c.id}` }}
               style={{textDecoration: 'none', color: 'white'}}
               {...c}
               >
@@ -68,13 +68,13 @@ class HomesMob extends Component {
             </button>
           </div>
             ))}
-      </>
+      </React.Fragment>
     );
   }
 
   render() {
     return(
-      <>
+      <React.Fragment>
         <div className="home-main-head">
           <h1>Homes & Projects</h1>
         </div>
@@ -98,7 +98,7 @@ class HomesMob extends Component {
          { this.renderC() }
         </ul>
       </div>
-      </>
+      </React.Fragment>
     )
   }
 }

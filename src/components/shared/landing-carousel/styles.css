@@ -7,16 +7,16 @@
 } */
 
 .hero-pic1 {
-  background-image: url('../../assets/Images/GenhuHeroImage.bmp');
+  background-image: url('../../../assets/Images/GenhuHeroImage.bmp');
   background-position: center;
   background-size: cover;
   width: 100vw;
   height: 55vw;
   /* padding: 0em 1em; */
-  
+
 }
 .hero-pic2 {
-  background-image: url('../../assets/carousel-pic.jpg');
+  background-image: url('../../../assets/carousel-pic.jpg');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -24,7 +24,7 @@
   /* padding: 0em 1em; */
 }
 .hero-pic3 {
-  background-image: url('../../assets/carousel-pic3.jpg');
+  background-image: url('../../../assets/carousel-pic3.jpg');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -32,7 +32,7 @@
   /* padding: 0em 1em; */
 }
 .hero-pic4 {
-  background-image: url('../../assets/carousel-pic4.jpg');
+  background-image: url('../../../assets/carousel-pic4.jpg');
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -46,7 +46,7 @@
   justify-content: center;
   height: 100%;
   padding-bottom: 3em;
-  
+
 }
 
 .hero-align_row {
@@ -80,7 +80,7 @@
     font-size: 1.5em;
     /* padding-top: 3em; */
     /* border: red 1px solid; */
-    
+
   }
   .title-car-med {
     /* height: auto; */

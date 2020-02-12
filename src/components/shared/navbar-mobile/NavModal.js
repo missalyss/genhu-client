@@ -56,7 +56,7 @@ const NavModal = ({ showNavModal, toggleNavModal }) => {
       </Fade>
     </div>
   ) : (
-    <></>
+    <React.Fragment></React.Fragment>
   );
 };
 

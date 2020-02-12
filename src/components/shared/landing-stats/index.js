@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import "./LandingStats.css";
+import "./styles.css";
 
 class LandingStats extends React.Component {
   state = { stats: [] };
@@ -39,7 +39,7 @@ class LandingStats extends React.Component {
           <div className="stats-line"></div>
           <h1>Since 2008. You have cared. We did the math.</h1>
           <br />
-         
+
           <div className="stats-container">{this.renderStats()}</div>
         </div>
       </div>

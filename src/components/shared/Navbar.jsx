@@ -23,12 +23,12 @@ class Navbar extends React.Component {
     })
 
   }
-  
+
   renderO = () => {
     const { orphanages } = this.state;
-    
+
     return (
-      <>
+      <React.Fragment>
         {orphanages.map(o => (
           <div
             key={o.id}
@@ -37,21 +37,21 @@ class Navbar extends React.Component {
               <Link to={{ pathname: `/orphanages/${o.id}` }} {...o}>{o.name}</Link></div>
               // {/* <Redirect to={{ pathname: `/orphanages/${o.id}` }} {...o}>{o.name}</Redirect></div> */}
             ))}
-      </>
+      </React.Fragment>
     );
   }
   renderC = () => {
     const { centers } = this.state;
 
     return (
-      <>
+      <React.Fragment>
         {centers.map(c => (
           <div
             key={c.id}
             {...c}
             ><Link to={{ pathname: `/centers/${c.id}` }} {...c}>{c.name}</Link></div>
             ))}
-      </>
+      </React.Fragment>
     );
   }
 
@@ -90,7 +90,7 @@ class Navbar extends React.Component {
         </div>
         </div>
         <NavLink to="/contact" className='nav-item'>Contact Us</NavLink>
-        <a href="https://www.facebook.com/genhu.org/" target="_blank"><Image src={Facebook} className='facebook-image' alt='facebook'/></a>     
+        <a href="https://www.facebook.com/genhu.org/" target="_blank"><Image src={Facebook} className='facebook-image' alt='facebook'/></a>
       </div>
     </div>
   )

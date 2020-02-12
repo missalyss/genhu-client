@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../shared/Footer';
+import Footer from '../shared/footer';
 import './Expeditions.css';
 import {Fade} from 'react-reveal';
 
@@ -83,12 +83,12 @@ Download the Expedition Application</p>
           <div className='purple-img6'></div>
           </div>
         </div>
-        
+
       </div>
         </Fade>
       </div>
 )
-  
-  
+
+
 
 export default Expeditions;

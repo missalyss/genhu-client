@@ -5,12 +5,12 @@ import { Fade } from "react-reveal";
 
 const ProvenSoulsMob = () => {
   return (
-  <>
+  <React.Fragment>
     <div className='ps-container-mob'>
       <Fade duration={2000}>
       <div className='ps-title-mob'>Proven Souls. <br></br> Proven Results.</div>
-      <div className='ps-para-mob'>Our oldest aged-out kids have flourished off the streets. 
-        They are productive members of Peruvian, Bolivian, and Colombian society. 
+      <div className='ps-para-mob'>Our oldest aged-out kids have flourished off the streets.
+        They are productive members of Peruvian, Bolivian, and Colombian society.
         Follow them in their lives. Enjoy payback days from your gifts.</div>
         <div className='btn-div-mob'>
           <button className='proven-button-mob'>
@@ -19,7 +19,7 @@ const ProvenSoulsMob = () => {
         </div>
         </Fade>
     </div>
-  </>
+  </React.Fragment>
   )
 }
 

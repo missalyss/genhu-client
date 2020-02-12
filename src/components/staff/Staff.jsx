@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import Footer from '../shared/Footer';
+import Footer from '../shared/footer';
 import { Link } from 'react-router-dom';
 import './Staff.css';
 import StaffModal from './StaffModal';
@@ -11,7 +11,7 @@ import EmployeeShow from './EmployeeShow';
 
 
 class Staff extends React.Component {
-  
+
   state = { directors: [], volunteers: [], staff: [], toggleForm: false, toggleModal: false, };
 
   componentDidMount() {
@@ -52,7 +52,7 @@ class Staff extends React.Component {
         <div className='staff-container'>
         { directors.map(d => (
           <EmployeeShow
-            key = { d.id } 
+            key = { d.id }
             {...d}
           />
         ))}
@@ -65,7 +65,7 @@ class Staff extends React.Component {
         <div className='staff-container'>
         { volunteers.map(v => (
           <EmployeeShow
-            key = { v.id } 
+            key = { v.id }
             {...v}
           />
         ))}
@@ -78,7 +78,7 @@ class Staff extends React.Component {
         <div className='staff-container'>
         { staff.map(s => (
           <EmployeeShow
-            key = { s.id } 
+            key = { s.id }
             {...s}
           />
         ))}

@@ -13,7 +13,7 @@ const NavMobile = ({ toggleNavModal, showNavModal }) => {
         <img src={Menu} onClick={toggleNavModal} alt="menu-icon" className="menu-mob-icon" />
     </div>
   ) : (
-    <></>
+    <React.Fragment></React.Fragment>
   );
 };
 

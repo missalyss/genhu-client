@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Footer from '../shared/Footer';
+import Footer from '../shared/footer';
 import PolicyFinancial from './PolicyFinancial.css';
 
 class Policy extends Component {
@@ -40,7 +40,7 @@ class Policy extends Component {
             </div>
             </div>
         </div>
- 
+
     )
   }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import "./ThreeStages.css";
-import Image from '../../assets/Images/city-buildings.jpg';
+import "./styles.css";
+import Image from '../../../assets/Images/city-buildings.jpg';
 import { NavLink } from 'react-router-dom';
 
 const ThreeStages = () => {

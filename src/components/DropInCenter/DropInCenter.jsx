@@ -1,9 +1,9 @@
 import React from 'react';
-import Footer from '../shared/Footer';
+import Footer from '../shared/footer';
 import './DropInCenter.css';
 
 const DropInCenters = () => (
-      <>
+      <React.Fragment>
       <br/>
       <br/>
       <br/>
@@ -161,9 +161,9 @@ const DropInCenters = () => (
             </ol>
         </div>
         </div>
-      </>
+      </React.Fragment>
 )
-  
-  
+
+
 
 export default DropInCenters;

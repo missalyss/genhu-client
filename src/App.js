@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import ScrollToTop from './ScrollToTop';
 
+import ScrollToTop from './components/shared/ScrollToTop';
 import Home from './components/shared/Landing';
-import Nomatch from './components/shared/Nomatch';
+import Error404 from './components/shared/error-404';
 import FetchUser from './components/auth/FetchUser';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
@@ -27,9 +27,11 @@ import Stats from './components/admin/stats/Stats';
 import Staff from './components/staff/Staff';
 import AdminHomes from './components/admin/homes/AdminHomes';
 import Employees from './components/admin/employees/Employees'
+
+
 import Privacy from './components/policyandfinancial/Privacy';
-import ProvenSoulsPage from './components/shared/ProvenSoulsPage';
-import Footer from './components/shared/Footer';
+import ProvenSoulsPage from './components/shared/proven-souls/ProvenSoulsPage';
+import Footer from './components/shared/footer';
 
 
 // ---------Mobile Pages --------------
@@ -68,7 +70,6 @@ class App extends Component {
   }
 
   toggleModal = () => {
-    // const { menuLoaded } = this.state;
     this.setState({ menuloaded: !this.state.menuloaded })
   };
 
@@ -89,74 +90,56 @@ class App extends Component {
     const isMobile = width <= 600;
 
     if (isMobile) {
-      return(
-        <>
+      return (
+        <React.Fragment>
           <NavMobile toggleNavModal={this.toggleNavModal} showNavModal={this.state.showNavModal} />
           <NavModal
             showNavModal={this.state.showNavModal}
             toggleNavModal={this.toggleNavModal}
           />
           <ScrollToTop>
-
-          <Route exact path="/" component={LandingMob} />
-          <Route exact path='/staff' component={Staff} />
-          <Route exact path='/about' component={AboutMobile} />
-          <Route exact path='/contact' component={ContactMobile} />
-
-          <Route exact path="/login" component={Login} />
-          {/* <Route exact path="/register" component={RegisterMob} /> */}
-          {/* <Route exact path="/calendar" component={MyCalendarMob} /> */}
-          {/* <Route exact path='/about' component={AboutMob} /> */}
-          {/* <Route exact path='/policy' component={PolicyFinancialMob} /> */}
-          <Route exact path='/expeditions' component={ExpeditionsMob} />
-          {/* <Route exact path='/contact' component={ContactMob} /> */}
-          {/* <Route exact path='/staff' component={StaffMob} /> */}
-          {/* <Route exact path='/orphanages' component={OrphanagesMob} /> */}
-          <Route exact path='/homes' component={HomesMob} />
-          <Route exact path='/orphanages/:id' component={ShowOrphanageMob} />
-          <Route exact path='/centers/:id' component={ShowCentersMob} />
-          {/* <Route exact path='/privacy' component={ PrivacyMob } /> */}
-          {/* <Route exact path='/proven_souls' component={ ProvenSoulsPageMob } /> */}
-          {/* <FetchUser> */}
-          <ProtectedRoute exact path="/admin" component={AdminHomeMob} />
-          <ProtectedRoute exact path="/datastats" component={AdminStatsMob} />
-          <ProtectedRoute exact path="/admin_homes" component={AdminHomesMob} />
-          <ProtectedRoute exact path="/admin_employee" component={AdminEmployeesMob} />
-          {/* </FetchUser> */}
-          {/* <Route component={NomatchMob} /> */}
-      {/* </Switch> */}
+            <Route exact path="/" component={LandingMob} />
+            <Route exact path='/staff' component={Staff} />
+            <Route exact path='/about' component={AboutMobile} />
+            <Route exact path='/contact' component={ContactMobile} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path='/expeditions' component={ExpeditionsMob} />
+            <Route exact path='/homes' component={HomesMob} />
+            <Route exact path='/orphanages/:id' component={ShowOrphanageMob} />
+            <Route exact path='/centers/:id' component={ShowCentersMob} />
+            <ProtectedRoute exact path="/admin" component={AdminHomeMob} />
+            <ProtectedRoute exact path="/datastats" component={AdminStatsMob} />
+            <ProtectedRoute exact path="/admin_homes" component={AdminHomesMob} />
+            <ProtectedRoute exact path="/admin_employee" component={AdminEmployeesMob} />
           </ScrollToTop>
-        <FooterMob />
-        </>
-      );
-    } else {
-      return (
-        <>
-          <Navbar />
-            <Switch>
-              <ScrollToTop>
-
-              <Route exact path="/" component={Home} />
-              <Route exact path="/login" component={Login} />
-              <Route exact path="/register" component={Register} />
-              <Route exact path="/calendar" component={MyCalendar} />
-              <Route exact path='/about' component={About} />
-              <Route exact path='/policy' component={PolicyFinancial} />
-              <Route exact path='/expeditions' component={Expeditions} />
-              <Route exact path='/contact' component={Contact} />
-              <Route exact path='/staff' component={Staff} />
-              <Route exact path='/orphanages' component={Orphanages} />
-              <Route exact path='/drop_in_centers' component={DropInCenters} />
-              <Route exact path='/orphanages/:id' component={ShowOrphanages} />
-              <Route exact path='/centers/:id' component={ShowCenters} />
-              <Route exact path='/privacy' component={ Privacy } />
-              <Route exact path='/proven_souls' component={ ProvenSoulsPage } />
-              </ScrollToTop>
-            </Switch>
-            <Footer/>
-        </>
+          <FooterMob />
+        </React.Fragment>
       )
-    }
+    };
+
+    return (
+      <React.Fragment>
+        <Navbar />
+          <ScrollToTop>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/register" component={Register} />
+            <Route exact path="/calendar" component={MyCalendar} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/policy' component={PolicyFinancial} />
+            <Route exact path='/expeditions' component={Expeditions} />
+            <Route exact path='/contact' component={Contact} />
+            <Route exact path='/staff' component={Staff} />
+            <Route exact path='/orphanages' component={Orphanages} />
+            <Route exact path='/drop_in_centers' component={DropInCenters} />
+            <Route exact path='/orphanages/:id' component={ShowOrphanages} />
+            <Route exact path='/centers/:id' component={ShowCenters} />
+            <Route exact path='/privacy' component={ Privacy } />
+            <Route exact path='/proven_souls' component={ ProvenSoulsPage } />
+          </ScrollToTop>
+          <Footer />
+      </React.Fragment>
+    );
   }
 };
 

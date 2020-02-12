@@ -49,11 +49,11 @@ class ShowCentersMob extends React.Component {
     }
   }
 
-  
+
   render() {
     const { center } = this.state;
         return(
-      <>
+      <React.Fragment>
       <div className='centers-top-cont-mob'>
       {/* <h1>SHOW ME</h1> */}
       <div className='centers-img-mob'>
@@ -104,7 +104,7 @@ class ShowCentersMob extends React.Component {
         <Fade left delay={1250}>
         <div className='centers-single-stat-mob'>
           <div className='centers-single-stat-col-mob'>
-            <div className='homes-stat-font-mob'>{ this.renderCountUpVolunteers() }</div> 
+            <div className='homes-stat-font-mob'>{ this.renderCountUpVolunteers() }</div>
             <p className='homes-stat-title-mob'>Regular Volunteers</p>
           </div>
         </div>
@@ -130,7 +130,7 @@ class ShowCentersMob extends React.Component {
           </div>
         </div>
       </div>
-      </>
+      </React.Fragment>
       )
     }
 }

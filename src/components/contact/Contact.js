@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Logo from "../../assets/Images/GENHU-logo-fake.png";
 import styles from'../shared/Main.css';
-import Footer from '../shared/Footer';
+import Footer from '../shared/footer';
 
 class Contact extends Component {
 
@@ -11,8 +11,8 @@ class Contact extends Component {
 
   render() {
     return (
-      
-      <>
+
+      <React.Fragment>
       <div className='contact'>
       <div className='contact_left'>
       <img src={Logo} className='contact_logo' alternate='logo'/>
@@ -52,9 +52,9 @@ class Contact extends Component {
         </form>
       </div>
       </div>
-      </>
-      
-  
+      </React.Fragment>
+
+
     )
   }
 }

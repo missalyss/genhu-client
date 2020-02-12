@@ -1,9 +1,9 @@
 import React from 'react';
 import './Orphanages.css';
-import Footer from '../shared/Footer';
+import Footer from '../shared/footer';
 
 const Orphanages = () => {
-  
+
   return (
     <div>
       <div className="orph-background">
@@ -24,7 +24,7 @@ const Orphanages = () => {
         </div>
         <div className="mid-picbox1"></div>
       </div>
-      
+
       <div className="mid-container2">
         <div className="mid-picbox2"> </div>
         <div className="mid-box2">Izcuchaca Orphanage
@@ -39,8 +39,8 @@ Beginning in 2017, we are launching an education fund for the full time resident
         </div>
       </div>
     </div>
-    
-    
+
+
   )
 }
 

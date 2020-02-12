@@ -6,8 +6,6 @@ import PicOne from '../../assets/Images/ablanding1.jpeg';
 import PicTwo from '../../assets/Images/ablanding2.jpeg';
 import PicThree from '../../assets/Images/ablanding3.jpeg';
 
-
-
 const AboutLanding = () => {
 
   return (
@@ -25,7 +23,7 @@ const AboutLanding = () => {
         development, and individual nurturing in a home environment.
       </div>
       </div>
-    </div> 
+    </div>
   );
 };
 
@@ -60,7 +58,7 @@ export const AboutCarousel = () => {
             <img src={PicTwo} className='about-pic2'/>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={PicThree} className='about-pic3'/>  
+            <img src={PicThree} className='about-pic3'/>
           </Carousel.Item>
         </Carousel>
         </div>

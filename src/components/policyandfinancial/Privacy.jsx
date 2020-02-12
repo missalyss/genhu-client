@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Footer from '../shared/Footer';
+import Footer from '../shared/footer';
 import PolicyFinancial from './PolicyFinancial.css';
 
 class Privacy extends Component {
@@ -63,7 +63,7 @@ While we take all reasonable measures to protect the confidentiality of your inf
           <p>Genhu.org is not responsible for the content or privacy practices of non-Genhu.org Web sites to which our Web site may link. Please review the privacy policy of such sites before using them.</p>
           <br />
         </div>
- 
+
     )
   }
 }

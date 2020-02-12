@@ -1,10 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import { Title, SubHeading, Button } from '../styles/StyledComponents';
-import './Carousel.css';
+import './styles.css';
 import { HashLink as Link } from 'react-router-hash-link';
-
-// style={{border: 'solid 1px blue'}}
 
 const LandingCarousel = () => {
   return(
@@ -13,15 +10,15 @@ const LandingCarousel = () => {
           <div className='hero-align_row' >
             <div className='hero-align_col' >
               {/* <Carousel.Caption> */}
-              <Title className='title-car-med'>Welcome to <br></br> Generations Humanitarian</Title>
+              <h1 className='title-car-med'>Welcome to <br></br> Generations Humanitarian</h1>
               <br></br>
-              <SubHeading className="subhead-car-med">We build and operate orphanages and drop-in centers for street children in Latin America</SubHeading>
+              <h2 className="subhead-car-med">We build and operate orphanages and drop-in centers for street children in Latin America</h2>
               {/* </Carousel.Caption> */}
               <br></br>
               <Link
               smooth to='/#about'
               >
-              <Button>Learn More</Button>
+              <button>Learn More</button>
               </Link>
           </div>
         </div>
@@ -30,17 +27,17 @@ const LandingCarousel = () => {
           <div className='hero-align_row' >
             <div className='hero-align_col' >
               {/* <Carousel.Caption> */}
-              <Title className='title-car-med'>Come to <br></br>South America <br></br>in 2019</Title>
+              <h1 className='title-car-med'>Come to <br></br>South America <br></br>in 2019</h1>
               <br></br>
-              <SubHeading className="subhead-car-med">Contact us for a group's custom expedition</SubHeading>
+              <h2 className="subhead-car-med">Contact us for a group's custom expedition</h2>
               {/* </Carousel.Caption> */}
               <br></br>
               <Link
               smooth to='/#about'
               >
-              <Button >Learn More</Button>
+              <button >Learn More</button>
               </Link>
-              
+
           </div>
         </div>
       </Carousel.Item>
@@ -48,15 +45,15 @@ const LandingCarousel = () => {
           <div className='hero-align_row' >
             <div className='hero-align_col' >
               {/* <Carousel.Caption> */}
-              <Title className='title-car-med'>Refuge Crisis</Title>
+              <h1 className='title-car-med'>Refuge Crisis</h1>
               <br></br>
-              <SubHeading className="subhead-car-med">Help Venezuela Refugee Children</SubHeading>
+              <h2 className="subhead-car-med">Help Venezuela Refugee Children</h2>
               {/* </Carousel.Caption> */}
               <br></br>
               <Link
               smooth to='/#about'
               >
-              <Button>Learn More</Button>
+              <button>Learn More</button>
               </Link>
           </div>
         </div>
@@ -65,21 +62,21 @@ const LandingCarousel = () => {
           <div className='hero-align_row' >
             <div className='hero-align_col'>
               {/* <Carousel.Caption> */}
-              <Title className='title-car-med'>Greenhouse & Hydroponics Project</Title>
+              <h1 className='title-car-med'>Greenhouse & Hydroponics Project</h1>
               <br></br>
-              <SubHeading className="subhead-car-med">We are creating self-sustaining, scalable, water efficient, organice greenhouses 
-                that teach children a work ethic, give them price in their produce, and funds their home.</SubHeading>
+              <h2 className="subhead-car-med">We are creating self-sustaining, scalable, water efficient, organice greenhouses
+                that teach children a work ethic, give them price in their produce, and funds their home.</h2>
               {/* </Carousel.Caption> */}
               <br></br>
               <Link
               smooth to='/#about'
               >
-              <Button>Learn More</Button>
+              <button>Learn More</button>
               </Link>
           </div>
         </div>
       </Carousel.Item>
- 
+
   </Carousel>
   )
 }
