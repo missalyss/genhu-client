@@ -1,0 +1,20 @@
+.modal-container{
+  /* z-index: 500000000000; */
+  top:  11.5em !important;
+}
+
+.modal-header{
+    background-color: #67385D; 
+    color: white;
+}
+.modal-button{
+    background-color: #67385D; 
+    color: white;
+    
+}
+
+.modal-col {
+  display: flex;
+  flex-direction: column;
+  
+}

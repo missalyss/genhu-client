@@ -1,0 +1,32 @@
+.home-main-head {
+  text-align: center;
+  margin: 2em 0em;
+}
+
+.home-cont-mob {
+ text-align: center;
+ margin: 2em 0em;
+ /* border: 2px red solid */
+}
+
+.title-cont-home {
+  background-color: #67385D;
+  color: white;
+  margin-bottom: 1em;
+  padding: 1em
+}
+
+.btn-home-mob {
+  font-family: 'Oxygen', sans-serif;
+  padding: .5em .5em;
+  background-color: #3C7473;
+  color: white;
+  width: 10em;
+  border-radius: 5px;
+  margin: 1em 0em;
+}
+
+.btn-home-mob:hover {
+  background-color: rgb(50, 91, 95);
+
+}

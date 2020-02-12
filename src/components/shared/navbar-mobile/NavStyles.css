@@ -1,0 +1,52 @@
+.menu-mob-icon {
+  width: 35px;
+  margin: 8px;
+  float: right;
+}
+
+.genhu-icon {
+  width: 30px;
+  margin: 8px;
+}
+
+.exit-icon {
+  width: 50px;
+  float: right;
+  margin: 10px 10px -10px 10px;
+}
+  
+.modal-main .modal-button {
+  background-color: teal;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  /* padding: .25em; */
+  width: 100vw; 
+  height: 12.5vh;
+  border: none;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.mob-nav-item button {
+  color: white;
+}
+
+.mob-nav-item button:hover {
+  color: gray;
+}
+
+.modal-main {
+    background-color: teal;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 5000;
+}
+
+.facebook {
+  background-color: teal;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+}
+

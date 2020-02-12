@@ -1,0 +1,252 @@
+/* .ts-top-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 2em;
+  color: white;
+  border: solid 5px red;
+  filter: grayscale(100%);
+}
+.ts-top-container::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 0 2em;
+  color: white;
+  background: url('../../assets/Images/city-buildings.jpg');
+  background-position: center;
+  background-size: cover;
+  border: solid 5px red;
+  filter: grayscale(100%);
+} */
+
+.ts-top-container {
+  height: 100%;
+  padding: 0;
+}
+.ts-top-bg {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: white;
+  position: relative;
+}
+.ts-top-bg::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url('../../assets/Images/city-buildings.jpg');
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.ts-button a {
+  color: white;
+}
+
+.ts-content-wrapper {
+  width: 100%;
+  /* height: 50%; */
+  position: relative;
+}
+
+.ts-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  color: black !important;
+  padding: .75em;
+}
+
+.ts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.content {
+  height: 38em;
+  width: 28em;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.content h3 {
+  font-size: 2.5em;
+}
+
+.content h4 {
+  font-size: 1.5em;
+}
+
+.hr {
+  border: .5px white solid;
+  width: 20em;
+  margin-bottom: 2em;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 22px;
+  color: #4a4a4a;
+}
+
+.subtitle {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.ts-background-image {
+  background-image: url('../../assets/carousel-pic3.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1em;
+
+}
+
+.ts-background-image:hover {
+  transform: scale(1.02);
+  transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+
+}
+
+
+.ts-color-opacity {
+  background-color: rgba(46, 89, 88, 0.6);
+}
+
+.ts-background-image2 {
+  background-image: url('../../assets/carousel-pic1.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1em;
+
+}
+
+.ts-background-image2:hover {
+  transform: scale(1.02);
+    transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+
+}
+
+.ts-color-opacity2 {
+  background-color: rgba(162, 90, 81, 0.6);
+}
+
+.ts-background-image3 {
+  background-image: url('../../assets/carousel-pic4.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1em;
+
+}
+.ts-background-image3:hover {
+  transform: scale(1.02);
+  transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+
+}
+
+.ts-color-opacity3 {
+  background-color: rgba(122, 85, 116, 0.6);
+}
+
+
+.ts-long-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px green solid; */
+  width: 100%;
+  height: 23em;
+  margin: 3em;
+  align-content: center;
+  background-color: #D5C54A;
+}
+
+.ts-flex {
+  /* border: red 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ts-flex h2 {
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+}
+
+
+.ts-button {
+
+  cursor: pointer;
+  background: #D5C54A;
+  font-size: 1em;
+  border-radius: 3px;
+  align-content: center;
+  color: white;
+  font-size: 1.75em;
+  border: 2px solid white;
+  /* border: 2px solid white; */
+  /* margin: 0 auto; */
+  margin: 1em 0em;
+  /* padding: 0.5em 1em; */
+  width: 20rem;
+  transition: 0.5s all ease-out;
+  padding: .65em 1.30em;
+  /* margin-left: 0 auto; */
+
+}
+
+.ts-button a {
+  color: white;
+}
+
+.ts-button:hover a {
+  color: black;
+}
+
+.ts-btn-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ts-button:hover {
+  background: white;
+  color: black;
+}
+
+.NavLink {
+  color: white;
+}
+
+.NavLink:hover {
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    height: 38em;
+    width: 23em;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    text-align: center;
+  }
+}

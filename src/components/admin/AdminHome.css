@@ -1,0 +1,66 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+
+@font-face {
+  src: url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+  /* TITle */
+  font-family: 'Oxygen', sans-serif;
+  /* Text */
+  font-family: 'Raleway', sans-serif;
+}
+
+.admin-container {
+  padding: 0em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.admin-title {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.50em;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.button-col,
+.button-col-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  flex: 50%;
+
+}
+
+.papa {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.row-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+button {
+  font-family: 'Oxygen', sans-serif;
+  padding: .5em .5em;
+  background-color: #3C7473;
+  color: white;
+  width: 10em;
+  border-radius: 5px;
+  margin: 5em;
+}
+
+button:hover {
+  background-color: rgb(50, 91, 95);
+
+}

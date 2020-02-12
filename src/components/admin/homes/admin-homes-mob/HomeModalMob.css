@@ -1,0 +1,22 @@
+.home-modal-cont{
+  /* z-index: 500000; */
+  top:  3em !important;
+  
+
+}
+
+.modal-header{
+    background-color: #67385D; 
+    color: white;
+}
+.modal-button{
+    background-color: #67385D; 
+    color: white;
+    
+}
+
+.modal-col {
+  display: flex;
+  flex-direction: column;
+  
+}

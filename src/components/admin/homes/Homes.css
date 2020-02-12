@@ -1,0 +1,83 @@
+.homes-btn-cont {
+  margin-top: 4em;
+}
+
+.home-section-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 2em 2em;
+}
+
+.form-homes {
+  padding: 1em;
+  display: flex;
+  width: 65%;
+  justify-content: space-around;
+  align-content: space-around;
+
+}
+
+.homes-form-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  /* border: red solid 2px; */
+}
+
+.homes-form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 50%;
+  
+  /* border: blue solid 2px; */
+}
+
+.homes-title {
+  text-align: center;
+  background-color: #67385D;
+  color: white;
+  padding: 10px;
+}
+.homes-subtitle {
+  text-align: center;
+  background-color: #3C7473;
+  color: white;
+  padding: 10px;
+}
+
+.add-button {
+  margin: 3em;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 15%; */
+  
+}
+
+.home-btn-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.home-box h3 {
+  font-size: 16px;
+}
+
+.home-box {
+  /* border: 2px solid black; */
+  width: 33%;
+  /* height: 16em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  padding: 20px;
+}
+
+.single-stat-home {
+  width: 20em !important;
+}

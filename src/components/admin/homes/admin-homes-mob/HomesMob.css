@@ -1,0 +1,104 @@
+.homes-btn-cont {
+  margin-top: 4em;
+}
+
+.home-section-cont-mob {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* margin: 2em 0em 5em 8em; */
+  /* border: 2px red solid; */
+  width: 100%;
+  text-align:  center;
+  padding: 0 auto;
+  margin-bottom: 1.5em;
+}
+
+.form-homes-mob {
+  padding: 1em;
+  display: flex;
+  width: 65%;
+  justify-content: space-around;
+  align-content: space-around;
+
+}
+
+.homes-form-cont-mob {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  /* border: red solid 2px; */
+  /* margin-top: 1em; */
+}
+
+.homes-form-mob {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 50%;
+  
+  /* border: blue solid 2px; */
+}
+
+.homes-title-mob {
+  text-align: center;
+  background-color: #3C7473;
+  color: white;
+  padding: 10px;
+}
+
+.add-button-mob {
+  margin: 3em;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 15%; */
+  
+}
+
+.back-btn-home-mob {
+  background-color: #3C7473;
+
+
+}
+
+.delete-btn {
+  border: 1px solid #863A2A;
+}
+
+.back-btn-home-mob:hover {
+  background-color: rgb(40, 78, 78);
+}
+
+
+.home-btn-flex-mob {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.home-box h3 {
+  font-size: 16px;
+}
+
+.home-box-mob {
+  /* border: 2px solid black; */
+  width: 80%;
+  /* height: 16em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0em;
+
+  /* margin: 1em 5em 1em 1em ; */
+  
+  /* padding-right: 2em; */
+}
+
+.single-stat-home-mob {
+  width: 100% !important;
+  /* border: 2px red solid; */
+
+}

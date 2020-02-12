@@ -1,0 +1,34 @@
+
+
+.aboutUs-container p{
+  line-height: 2.5
+}
+
+.aboutUs-container{
+  padding: 5px;
+  margin-top: 0px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  line-height: 2.5;
+}
+
+
+
+.list-style{
+
+  margin-left: 50px;
+
+}
+
+.au-container {
+  
+  border-bottom: 1px solid black;
+  margin-bottom: 25px;
+
+}
+
+.au-container-top {
+  border-bottom: 1px solid black;
+  margin-top: 15vh;
+  margin-bottom: 25px;
+}

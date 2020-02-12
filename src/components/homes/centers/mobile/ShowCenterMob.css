@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+@font-face {
+  src: url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+  /* TITle */
+  font-family: 'Oxygen', sans-serif;
+  /* Text */
+  font-family: 'Raleway', sans-serif;
+}
+
+.centers-top-cont-mob {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  /* margin-top: 5em; */
+  /* border: green 2px solid; */
+  z-index: -1000;
+}
+
+.centers-img-mob {
+  background-image: url('../../../../assets/Images/homes1.jpg');
+  background-position: center;
+  background-size: cover;
+  /* opacity: 0.7; */
+  /* filter: brightness(50%); */
+  width: 100%;
+  z-index: -1;
+
+
+}
+.centers-dir-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-left: 4em; */
+  text-align: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+  /* border: yellow 2px solid; */
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.dir-title-mob {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 3.5em !important;
+  text-shadow: 1px 1px black;
+  /* filter: brightness(100%) !important; */
+}
+
+.centers-dir-mob h1 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 2em;
+  padding-bottom: .45em;
+  text-shadow: 1px 1px black;
+}
+.centers-span-mob {
+    border-top: white 1px solid;
+    width: 3em;
+}
+.centers-dir-mob p {
+  font-size: 1.5em;
+  font-weight: lighter;
+  font-style: italic;
+  padding-right: 1em;
+}
+
+.centers-dir-flex-mob {
+  display: flex;
+  /* border: red 2px solid; */
+  margin: 0em auto;
+  /* justify-content: space-evenly; */
+  
+}
+.centers-dir-col-mob {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /* border: black 2px solid; */
+  /* margin-left: 2em; */
+}
+
+
+
+/* ------------ Stats Container --------------- */
+
+.centers-stats-cont-mob {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 1em 4.5em;
+  height: 100%;
+  width: 100%;
+  /* border: purple 2px solid; */
+  background-color: #67385D;
+}
+
+.centers-single-stat-mob {
+  display: flex;
+  justify-content: center;
+  /* border: blue 2px solid; */
+  color: white;
+  font-size: 2em !important;
+  width: 100%;
+
+}
+
+/* .center-stat-size {
+
+} */
+
+.centers-single-stat-col-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homes-stat-font-mob {
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 2em;
+  color: color !important;
+  /* padding-bottom: .5em; */
+}
+.homes-stat-title-mob {
+  font-size: .7em;
+  color: color;
+  font-weight: lighter;
+}
+
+/* ----------------- About Content Portion ----------------- */
+
+.cntr-content-home-mob {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 100%;
+  /* border: red solid 2px; */
+}
+
+.cntr-content-home-mob div {
+  /* border: yellow solid 2px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  text-align: center;  
+
+  /* margin: 0em 2em; */
+  /* width: 50% */
+  
+}
+
+.about-words-mob {
+  /* border: 1px solid purple; */
+  padding: 0em 1em;
+  text-align: left;
+
+
+
+}
+
+.cntr-col-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: green solid 2px; */
+  width: 100%;
+  /* height: 80%; */
+}
+
+.cntr-col h1 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 2.5em;
+  
+
+  /* padding-bottom: .7em; */
+}
+.cntr-col p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.05em;
+  line-height: 1.70em;
+  text-align: left !important;
+}

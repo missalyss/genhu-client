@@ -1,0 +1,218 @@
+.ts-top-container-mob {
+  height: 100%;
+  padding: 0;
+}
+.ts-top-bg-mob {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: white;
+  position: relative;
+}
+.ts-top-bg-mob::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url('../../../../assets/Images/city-buildings.jpg');
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.ts-button-mob a {
+  color: white;
+}
+
+.ts-content-wrapper-mob {
+  width: 100%;
+  /* height: 50%; */
+  position: relative;
+}
+
+.ts-heading-mob {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  color: black !important;
+  padding: .75em;
+  text-align: center;
+}
+
+.ts-mob {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.content-mob {
+  height: 30em;
+  width: 22em;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.content-mob h3 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.content-mob h4 {
+  font-size: 1.5em;
+}
+
+.hr-mob {
+  border: .5px white solid;
+  width: 20em;
+  margin-bottom: 2em;
+}
+
+.title-mob {
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 22px;
+  color: #4a4a4a;
+}
+
+.subtitle-mob {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.ts-background-image-mob {
+  background-image: url('../../../../assets/carousel-pic3.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1em;
+
+}
+
+.ts-background-image-mob:hover {
+  transform: scale(1.01);
+  transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+
+}
+
+
+.ts-color-opacity-mob {
+  background-color: rgba(46, 89, 88, 0.6);
+}
+
+.ts-background-image2-mob {
+  background-image: url('../../../../assets/carousel-pic1.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1em;
+
+}
+
+.ts-background-image2-mob:hover {
+  transform: scale(1.02);
+    transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+
+}
+
+.ts-color-opacity2-mob {
+  background-color: rgba(162, 90, 81, 0.6);
+}
+
+.ts-background-image3-mob {
+  background-image: url('../../../../assets/carousel-pic4.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1em;
+
+}
+.ts-background-image3-mob:hover {
+  transform: scale(1.02);
+  transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+
+}
+
+.ts-color-opacity3-mob {
+  background-color: rgba(122, 85, 116, 0.6);
+}
+
+
+.ts-long-box-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 2px green solid; */
+  width: 100%;
+  height: 23em;
+  margin: 3em;
+  align-content: center;
+  text-align: center;
+  background-color: #D5C54A;
+}
+
+.ts-flex-mob {
+  /* border: red 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ts-flex-mob h2 {
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+
+.ts-button-mob {
+
+  cursor: pointer;
+  background: #D5C54A;
+  font-size: 1.25em;
+  border-radius: 3px;
+  align-content: center;
+  color: white;
+  border: 2px solid white;
+  /* border: 2px solid white; */
+  /* margin: 0 auto; */
+  /* margin: 1em 0em; */
+  /* padding: 0.5em 1em; */
+  /* width: 20rem; */
+  transition: 0.5s all ease-out;
+  /* padding: .65em 1.30em; */
+  padding: 0.70em 1em;
+  width: 11rem;
+  /* margin-left: 0 auto; */
+
+}
+
+.ts-button-mob a {
+  color: white;
+}
+
+.ts-button-mob:hover a {
+  color: black;
+}
+
+.ts-btn-row-mob {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ts-button-mob:hover {
+  background: white;
+  color: black;
+}
+
+.NavLink-mob {
+  color: white;
+}
+
+.NavLink-mob:hover {
+  color: white;
+}

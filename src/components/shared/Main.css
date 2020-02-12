@@ -1,0 +1,408 @@
+/* This Targets EVERYTHING -- just a good thing to do for any project.
+ Gives a default value of 0 padding and margin */
+
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+/* --------------- Fonts ---------------- */
+
+/* @import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
+
+h1 {
+  font-family: 'Hepta Slab', serif;
+  color: blue;
+} */
+/* --------------- Colors ---------------- */
+/* #FFFFFF #724524 #7344 */
+
+/* --------------- CONTACT ---------------- */
+.contact {
+  display:-webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.contact_left {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  /* margin: 30vh 5em 0em 18em; */
+  flex: 1;
+  text-align: center;
+  align-items: center;
+}
+
+.contact_submit {
+  font-size: 20px;
+  background-color: teal;
+}
+
+.contact_submit:hover {
+  background-color: rgb(1, 87, 87);
+}
+
+.contact_right:hover {
+  box-shadow: 0px 8px 16px 0px rgba(155, 149, 149, 0.2);
+}
+
+.contact_right {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  flex: 1;
+  padding: 15px;
+  width: 90%;
+  margin: 25px 50px 50px 50px;
+}
+
+
+.contact_item {
+  padding-bottom: 1em;
+  /* font-size: 14px; */
+  font-size: 20px;
+}
+
+.contact_item textarea, .contact_item input {
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ccc;
+  padding: 1em;
+  width: 100%;
+}
+
+.contact_item input:hover, textarea:hover {
+  border-bottom: solid 1px teal;
+}
+
+.contact_item input, .contact_item label {
+  display: block;
+}
+
+.contact_item textarea {
+  height: 4em;
+}
+
+.contact h2 {
+  margin-bottom: 3vw;
+  font-size: 30px;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+.contact_logo {
+  width: 500px;
+  max-width: 30em;
+  margin-bottom: 3vh;
+  height: auto;
+}
+
+.address_info {
+  font-weight: bold;
+}
+
+.address_info p {
+  margin: 0.5em;
+}
+
+@media screen and (min-width:1510px) {
+.contact {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 50px;
+  /* padding: 100px 200px 150px 200px; */
+
+}
+
+.contact_left {
+  padding-right: 2%;
+  padding-left: 10%;
+  text-align: left;
+}
+
+.contact_right {
+  padding: 4vh;
+  width: 60%;
+  margin: 5% 5% 5% 0%;
+}
+
+.contact_item {
+  padding-bottom: 2em;
+}
+
+.contact_item textarea, .contact_item input {
+  padding: 1.5vw;
+}
+
+.contact_item input, .contact_item label {
+  display: block;
+}
+
+.contact_item textarea {
+  height: 7em;
+}
+
+.contact h2 {
+  margin-bottom: 3vw;
+  font-size: 30px;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+.contact_logo {
+  width: 100%;
+}
+
+}
+
+
+/* --------------- NAV ---------------- */
+.main-nav {
+  display:-webkit-flex;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background-color: white;
+  font-size: 22px;
+  align-items: center;
+  margin: 0;
+  padding-left: 2em;
+  position: fixed;
+  z-index: 10000;
+  box-shadow: 0px 8px 16px 0px rgba(214, 213, 213, 0.2);
+} 
+
+.nav-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.right_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 3%;
+  width: 100vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  padding: .8em 1.2em;
+  color: black;
+  position: relative; 
+  display: inline-block;
+  text-decoration: none;
+} 
+
+.nav-item:hover {
+  color:teal;
+  text-decoration: none;
+}
+
+/* .nav-item:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: -10px;
+  content: "";
+  display: block;
+  height: .2vh;
+  position: absolute;
+  background: teal;
+  width: 0;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+} */
+/* .nav-item:hover:after { 
+  width: 100%; 
+  left: 0; 
+} */
+
+.logo-image {
+  width: 0;
+}
+
+.facebook-image {
+  width: 2em;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 5000;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown-content a:hover {
+  color: teal;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.homes-tab {
+  padding-left: 2em;
+}
+
+li {
+  cursor: pointer;
+  }
+
+  .souls-container {
+    height: 100vh;
+    padding-bottom: 50em;
+  }
+
+@media screen and (min-width:1510px) {
+.hide-me {
+  display: none;
+}
+
+.main-nav {
+  display:-webkit-flex;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 5.5em;
+  background-color: white;
+  font-size: 25px;
+  align-items: center;
+  margin-left: 0;
+  padding-left: 2em;
+  position: fixed;
+  z-index: 10000;
+  box-shadow: 0px 8px 16px 0px rgba(214, 213, 213, 0.2);
+}
+
+.nav-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.right_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 3%;
+  width: 100vw;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  padding: 0em 1.2em;
+  color: black;
+  position: relative; 
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color:black;
+  text-decoration: none;
+}
+
+.nav-item:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: -10px;
+  content: "";
+  display: block;
+  height: .2vh;
+  position: absolute;
+  background: teal;
+  width: 0;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+.nav-item:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.logo-image {
+  margin: 1em 0em 1em 0em;
+  width: 600px;
+}
+
+.facebook-image {
+  width: 2em;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 5000;
+  font-size: 22px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown-content a:hover {
+  color: teal;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.homes-tab {
+  padding-left: 2em;
+}
+
+li {
+  cursor: pointer;
+  }
+
+  .souls-container {
+    height: 100vh;
+    padding-bottom: 50em;
+  }
+
+}

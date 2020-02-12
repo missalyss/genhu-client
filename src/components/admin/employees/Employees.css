@@ -1,0 +1,82 @@
+.employees-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 2em 2em 5em 2em;
+  }
+
+  .employee-box {
+    /* border: 2px solid black; */
+    width: 33%;
+    /* height: 16em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 1em 1em; */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .employee_photo {
+    width: 150px;
+    padding: 10px;
+  }
+
+  .employee-box h3 {
+    font-size: 16px;
+  }
+
+  .employee-title {
+    text-align: center;
+    background-color: #3C7473;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+  }
+
+  .emp-btn-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  button.back-button {
+    background-color: #D2AA31;
+    display: block;
+  }
+  
+  button.back-button:hover {
+    background-color: rgb(192, 153, 37);
+  }
+
+  
+ .add-button {
+    background-color: #3C7473;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .add-button:hover {
+    background-color: rgb(40, 78, 78);
+  }
+
+  .employee-edit-page button {
+    margin: 0em 1em 0em 0em;
+  }
+
+  .employee-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    margin: 2em;
+    /* border: 1px red solid; */
+  }
+
+  .employee-edit-page {
+    padding: 7em 0em 0em 0em;
+  }
+
+

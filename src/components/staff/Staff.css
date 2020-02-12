@@ -1,0 +1,95 @@
+.staff-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  /* width: 100%;
+  height: 100%; */
+  /* text-align: center */
+  flex-wrap: wrap;
+  /* padding: 0em 2em 2em; */
+  /* border: 5px solid red; */
+  }
+
+.staff-box{
+  /* border: 2px solid black; */
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 1em;
+  position: relative;
+  overflow: hidden;
+}
+
+.staff-box:hover {
+  cursor: pointer;
+  opacity: .8;
+  transform: scale(1.02);
+  /* transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95); */
+
+}
+
+.img-wrapper {
+  display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;
+}
+
+.staff-name { 
+  color: white; 
+  background-color: #67385D;
+  padding: 0em 1em;
+  width: fit-content;
+}
+
+.staff-name h3 {
+  font-size: 30px;
+  
+}
+
+.staff-title h4 {
+  font-size: 25px;
+}
+
+.staff-title{
+  color: black; 
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 0em 1em;
+  width: fit-content;
+}
+
+.employee_page h1 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 35px;
+
+  color: white;
+
+}
+
+.bump_nav {
+  padding-top: 10px;
+}
+
+.main_headers {
+  margin: 10px 0px;
+  background-color: #67385D;
+
+}
+
+
+
+@media screen and (min-width:600px) {
+  
+  .staff-box{
+    width: 400px;
+    height: 400px;
+  }
+
+  .bump_nav {
+    padding-top: 135px;
+  }
+}

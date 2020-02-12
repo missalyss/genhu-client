@@ -1,0 +1,99 @@
+.orph-background {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ height: 65vh;
+ width: 100%;
+ padding: 10em 10em 10em;
+ background: url('../../assets/Images/testpic.jpg');
+ background-size: cover;
+ color: white;
+}
+
+.orph-title {
+  font-size: 60px;
+  height: 7vh;
+  text-shadow: 1px 1px black;
+  flex-wrap: wrap;
+}
+.orph-word {
+  font-size: 60px;
+  text-shadow: 1px 1px black;
+  flex-wrap: wrap;
+}
+
+.mid-col {
+  display: flex;
+  height: 25vh;
+  width: 100%;
+  flex-direction: column;
+  padding: 5em 10em 0em;
+}
+.mid-title {
+  font-size: 30px;
+  padding-bottom: 1em;
+}
+.mid-p {
+  font-size: 14px;
+  line-height: 1.7;
+  padding-top: .10em;
+}
+
+.mid-container1 {
+  display: flex;
+  padding: 4em 10em 0em;
+}
+.mid-box1 {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  padding-top: 4em;
+  padding-right: 2em;
+  width: 50%
+}
+.mid-para1 {
+  display: flex;
+  padding-top: 2em;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.mid-picbox1 {
+  display: flex;
+  background: url('../../assets/Images/orphtest.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  height: 50vh;
+  width: 50%;
+}
+.mid-container2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 5em 10em 5em;
+}
+.mid-box2 {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  padding-top: 4em;
+  padding-left: 2em;
+  width: 50%
+}
+.mid-para2 {
+  display: flex;
+  padding-top: 2em;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.mid-picbox2 {
+  display: flex;
+  background: url('../../assets/Images/avacado.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  height: 50vh;
+  width: 50%;
+}
+
+
+

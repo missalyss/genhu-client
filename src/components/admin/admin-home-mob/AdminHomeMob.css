@@ -1,0 +1,76 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+
+@font-face {
+  src: url('https://fonts.googleapis.com/css?family=Oxygen|Raleway&display=swap');
+  /* TITle */
+  font-family: 'Oxygen', sans-serif;
+  /* Text */
+  font-family: 'Raleway', sans-serif;
+}
+
+.admin-container-mob {
+  padding: 0em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 100px;
+  /* border: 1px solid green; */
+}
+
+.admin-title-mob {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  /* padding-top: 2em; */
+  /* border: 1px solid blue; */
+}
+
+.button-col-mob,
+.button-col-one-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  flex: 50%;
+  /* border: 1px solid red; */
+  
+}
+
+.papa-mob {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* border: 1px solid purple; */
+  margin-top: 2em;
+  /* text-align: center; */
+  justify-content: center;
+}
+
+.row-one-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* border: 1px solid aqua; */
+  text-align: center;
+  
+}
+
+.row-one-mob button {
+  font-family: 'Oxygen', sans-serif;
+  padding: .6em .6em;
+  background-color: #3C7473;
+  color: white;
+  width: 10em;
+  border-radius: 5px;
+  margin: 1em;
+  font-size: 1.3em;
+}
+
+.row-one-mob button:hover {
+  background-color: rgb(50, 91, 95);
+
+}

@@ -1,0 +1,86 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+.hero-pic1-mob {
+  background-image: url('../../../../assets/Images/GenhuHeroImage.bmp');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 45em;
+  /* border: red, solid, 2px; */
+  }
+
+  .hero-pic2-mob {
+    background-image: url('../../../../assets/carousel-pic.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+     height: 45em;
+  }
+  .hero-pic3-mob {
+    background-image: url('../../../../assets/carousel-pic3.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+     height: 45em;
+  }
+  .hero-pic4-mob {
+    background-image: url('../../../../assets/carousel-pic4.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+     height: 45em;
+  }
+
+  .title-car-mob.title-car-mob {
+    font-size: 3em;
+    
+  }
+  
+  .subhead-car-mob {
+    font-size: 1.5em;
+    
+  }
+
+ 
+  
+  .hero-mob-align_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%; */
+    width: 50em;
+    height: 100%;
+    /* border: blue solid 2px; */
+    
+  }
+  
+  .hero-mob-align_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    text-align: center;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 0em;
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+    /* border: red solid 2px; */
+    
+  }
+  
+  .carousel-btn-mob {
+    display: flex;
+    justify-content: flex-end;
+    height: 20%;
+    /* border: yellow 2px solid; */
+  }
+
+

@@ -1,0 +1,22 @@
+.form-cont-mob {
+  width: 100%;
+}
+
+.img-preview-mob {
+  height: 150px;
+  width: auto;
+  position: absolute;
+
+}
+
+.dropzone-mob {
+  height: 150px;
+  width: 150px;
+  border: 1px dashed black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  overflow: none;
+}
